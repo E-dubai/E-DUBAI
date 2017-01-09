@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+
+<html class="html">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<title>E-Dubai Social All in one App</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+<meta name="generator" content="7.3.5.244" />
+<meta name="image-hide-from-external-url" content="true" />
+<meta name="image-hide-location" content="true" />
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="css/site_globalaa01.css?3983832653" />
+<link rel="stylesheet" type="text/css" href="css/indexf911.css?3908720249" id="pagesheet" />
+ 
+<script type="text/javascript">
+ 
+// Scroll Variables (tweakable)
+function init(){if(!document.body)return;var e=document.body,t=document.documentElement,n=window.innerHeight,r=e.scrollHeight;root=document.compatMode.indexOf("CSS")>=0?t:e;activeElement=e;initdone=!0;if(top!=self)frame=!0;else if(r>n&&(e.offsetHeight<=n||t.offsetHeight<=n)){var i=!1,s=function(){if(!i&&t.scrollHeight!=document.height){i=!0;setTimeout(function(){t.style.height=document.height+"px";i=!1},500)}};t.style.height="";setTimeout(s,10);addEvent("DOMNodeInserted",s);addEvent("DOMNodeRemoved",s);if(root.offsetHeight<=n){var o=document.createElement("div");o.style.clear="both";e.appendChild(o)}}if(document.URL.indexOf("mail.google.com")>-1){var u=document.createElement("style");u.innerHTML=".iu { visibility: hidden }";(document.getElementsByTagName("head")[0]||t).appendChild(u)}if(!fixedback&&!disabled){e.style.backgroundAttachment="scroll";t.style.backgroundAttachment="scroll"}}function scrollArray(e,t,n,r){r||(r=1e3);directionCheck(t,n);if(acceleration){var i=+(new Date),s=i-lastScroll;if(s<accelDelta){var o=(1+30/s)/2;if(o>1){o=Math.min(o,accelMax);t*=o;n*=o}}lastScroll=+(new Date)}que.push({x:t,y:n,lastX:t<0?.99:-0.99,lastY:n<0?.99:-0.99,start:+(new Date)});if(pending)return;var u=e===document.body,a=function(){var i=+(new Date),s=0,o=0;for(var f=0;f<que.length;f++){var l=que[f],c=i-l.start,h=c>=animtime,p=h?1:c/animtime;pulseAlgorithm&&(p=pulse(p));var d=l.x*p-l.lastX>>0,v=l.y*p-l.lastY>>0;s+=d;o+=v;l.lastX+=d;l.lastY+=v;if(h){que.splice(f,1);f--}}if(u)window.scrollBy(s,o);else{s&&(e.scrollLeft+=s);o&&(e.scrollTop+=o)}!t&&!n&&(que=[]);que.length?requestFrame(a,e,r/framerate+1):pending=!1};requestFrame(a,e,0);pending=!0}function wheel(e){initdone||init();var t=e.target,n=overflowingAncestor(t);if(!n||e.defaultPrevented||isNodeName(activeElement,"embed")||isNodeName(t,"embed")&&/\.pdf/i.test(t.src))return!0;var r=e.wheelDeltaX||0,i=e.wheelDeltaY||0;!r&&!i&&(i=e.wheelDelta||0);Math.abs(r)>1.2&&(r*=stepsize/120);Math.abs(i)>1.2&&(i*=stepsize/120);scrollArray(n,-r,-i);e.preventDefault()}function keydown(e){var t=e.target,n=e.ctrlKey||e.altKey||e.metaKey||e.shiftKey&&e.keyCode!==key.spacebar;if(/input|textarea|select|embed/i.test(t.nodeName)||t.isContentEditable||e.defaultPrevented||n)return!0;if(isNodeName(t,"button")&&e.keyCode===key.spacebar)return!0;var r,i=0,s=0,o=overflowingAncestor(activeElement),u=o.clientHeight;o==document.body&&(u=window.innerHeight);switch(e.keyCode){case key.up:s=-arrowscroll;break;case key.down:s=arrowscroll;break;case key.spacebar:r=e.shiftKey?1:-1;s=-r*u*.9;break;case key.pageup:s=-u*.9;break;case key.pagedown:s=u*.9;break;case key.home:s=-o.scrollTop;break;case key.end:var a=o.scrollHeight-o.scrollTop-u;s=a>0?a+10:0;break;case key.left:i=-arrowscroll;break;case key.right:i=arrowscroll;break;default:return!0}scrollArray(o,i,s);e.preventDefault()}function mousedown(e){activeElement=e.target}function setCache(e,t){for(var n=e.length;n--;)cache[uniqueID(e[n])]=t;return t}function overflowingAncestor(e){var t=[],n=root.scrollHeight;do{var r=cache[uniqueID(e)];if(r)return setCache(t,r);t.push(e);if(n===e.scrollHeight){if(!frame||root.clientHeight+10<n)return setCache(t,document.body)}else if(e.clientHeight+10<e.scrollHeight){overflow=getComputedStyle(e,"").getPropertyValue("overflow-y");if(overflow==="scroll"||overflow==="auto")return setCache(t,e)}}while(e=e.parentNode)}function addEvent(e,t,n){window.addEventListener(e,t,n||!1)}function removeEvent(e,t,n){window.removeEventListener(e,t,n||!1)}function isNodeName(e,t){return(e.nodeName||"").toLowerCase()===t.toLowerCase()}function directionCheck(e,t){e=e>0?1:-1;t=t>0?1:-1;if(direction.x!==e||direction.y!==t){direction.x=e;direction.y=t;que=[];lastScroll=0}}function pulse_(e){var t,n,r;e*=pulseScale;if(e<1)t=e-(1-Math.exp(-e));else{n=Math.exp(-1);e-=1;r=1-Math.exp(-e);t=n+r*(1-n)}return t*pulseNormalize}function pulse(e){if(e>=1)return 1;if(e<=0)return 0;pulseNormalize==1&&(pulseNormalize/=pulse_(1));return pulse_(e)}var framerate=150,animtime=1e3,stepsize=80,pulseAlgorithm=!0,pulseScale=8,pulseNormalize=1,acceleration=!0,accelDelta=10,accelMax=1,keyboardsupport=!0,disableKeyboard=!1,arrowscroll=50,exclude="",disabled=!1,frame=!1,direction={x:0,y:0},initdone=!1,fixedback=!0,root=document.documentElement,activeElement,key={left:37,up:38,right:39,down:40,spacebar:32,pageup:33,pagedown:34,end:35,home:36},que=[],pending=!1,lastScroll=+(new Date),cache={};setInterval(function(){cache={}},1e4);var uniqueID=function(){var e=0;return function(t){return t.uniqueID||(t.uniqueID=e++)}}(),requestFrame=function(){return window.requestAnimationFrame||window.webkitRequestAnimationFrame||function(e,t,n){window.setTimeout(e,n||1e3/60)}}();addEvent("mousedown",mousedown);addEvent("mousewheel",wheel);addEvent("load",init);
+</script>
+</head>
+<body>
+
+ 
+
+  <!--HTML Widget code-->
+  
+<div id="fb-root"></div>
+ 
+
+  
+  <div class="clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+    <div class="browser_width mse_pre_init" id="u864"><!-- simple frame --></div>
+    <div class="PamphletWidget clearfix mse_pre_init" id="pamphletu76"><!-- none box -->
+     <div class="ThumbGroup clearfix grpelem" id="u92"><!-- none box -->
+      <div class="popup_anchor">
+       <div class="Thumb popup_element rounded-corners" id="u95"><!-- simple frame --></div>
+      </div>
+      <div class="popup_anchor">
+       <div class="Thumb popup_element rounded-corners" id="u93"><!-- simple frame --></div>
+      </div>
+      <div class="popup_anchor">
+       <div class="Thumb popup_element rounded-corners" id="u94"><!-- simple frame --></div>
+      </div>
+     </div>
+     <div class="popup_anchor" id="u77popup">
+      <div class="ContainerGroup clearfix" id="u77"><!-- stack box -->
+       <div class="Container grpelem" id="u79"><!-- simple frame --></div>
+       <div class="Container invi grpelem" id="u78"><!-- simple frame --></div>
+       <div class="Container invi grpelem" id="u80"><!-- simple frame --></div>
+      </div>
+     </div>
+    </div>
+    <div class="colelem" id="u1189"><!-- simple frame --></div>
+    <div class="clearfix colelem" id="u115-4"><!-- content -->
+     <p>E-Dubai App</p>
+    </div>
+    <div class="clearfix colelem" id="u116-4"><!-- content -->
+     <p>Because We Care </p>
+    </div>
+    <a class="nonblock nontext rounded-corners clearfix colelem" id="u119-4" href=""><!-- content --><p id="u119-2">Get this</p></a>
+    <div class="clearfix colelem" id="ppu759-6"><!-- group -->
+     <div class="clearfix grpelem" id="pu759-6"><!-- column -->
+      <div class="clearfix colelem" id="u759-6"><!-- content -->
+       <p id="u759-2">The All in one Smart City App</p>
+       <p id="u759-4"><span id="u759-3">E-Dubai App will has many features like Car Polling , Emergency , Social Networking , Ask the Gov , Traffic monitor , health monitors and tips, news ,Weather, fire , knowledge , rent , buy and many more features. We have included and integrated some , and some are waiting for API purposes we are delaying. But will soon come with AI , Machine learning to understrand and predict users needs , disease, TO-DO-List , Better parking area , better community network, level of air pollution and many more with just a finger tip.</span></p>
+      </div>
+      <div class="clearfix colelem" id="pu1011"><!-- group -->
+       <a class="nonblock nontext MuseLinkActive museBGSize grpelem" id="u1011" ><!-- simple frame --></a>
+       <a class="nonblock nontext MuseLinkActive museBGSize grpelem" id="u1023"><!-- simple frame --></a>
+      </div>
+     </div>
+     <div class="clip_frame grpelem" id="u172"><!-- image -->
+      <img class="block" id="u172_img" src="images/phone.png" alt="" width="285" height="600" />
+     </div>
+     <div class="museBGSize grpelem" id="u912"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix colelem" id="pu145"><!-- group -->
+     <div class="clip_frame mse_pre_init" id="u145"><!-- image -->
+      <img class="block" id="u145_img" src="images/rocket.png" alt="" width="149" height="270" />
+     </div>
+     <div class="clip_frame mse_pre_init" id="u858"><!-- image -->
+      <img class="block" id="u858_img" src="images/satellite.png" alt="" width="177" height="109" />
+     </div>
+     <div class="clip_frame mse_pre_init" id="u871"><!-- image -->
+      <img class="block" id="u871_img" src="images/comet.png" alt="" width="215" height="81" />
+     </div>
+     <div class="clip_frame mse_pre_init" id="u143"><!-- image -->
+      <img class="block" id="u143_img" src="images/astronaut.png" alt="" width="247" height="402" />
+     </div>
+    </div>
+    <div class="clearfix colelem" id="ppamphletu224"><!-- group -->
+     <div class="PamphletWidget clearfix grpelem" id="pamphletu224"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u229"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="Thumb popup_element clearfix" id="u230"><!-- column -->
+         <div class="clearfix colelem" id="pu234"><!-- group -->
+          <div class="rounded-corners clearfix grpelem" id="u234"><!-- group -->
+           <div class="clearfix grpelem" id="u231-4"><!-- content -->
+            <p id="u231-2">1</p>
+           </div>
+          </div>
+          <div class="clearfix grpelem" id="u235-4"><!-- content -->
+           <p id="u235-2">Car Pooling</p>
+          </div>
+         </div>
+         <div class="clearfix colelem" id="pu294"><!-- group -->
+          <div class="grpelem" id="u294"><!-- simple frame --></div>
+          <div class="grpelem" id="u299" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.7071,M12=0.7071,M21=-0.7071,M22=0.7071,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-5" data-mu-ie-matrix-dy="-5"><!-- simple frame --></div>
+         </div>
+         <div class="clearfix colelem" id="u232-4"><!-- content -->
+          <p>Connecting Customers with customers for a better and eco-friendly travelling.</p>
+         </div>
+        </div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element clearfix" id="u319"><!-- column -->
+         <div class="clearfix colelem" id="pu333"><!-- group -->
+          <div class="rounded-corners clearfix grpelem" id="u333"><!-- group -->
+           <div class="clearfix grpelem" id="u334-4"><!-- content -->
+            <p id="u334-2">2</p>
+           </div>
+          </div>
+          <div class="clearfix grpelem" id="u335-4"><!-- content -->
+           <p id="u335-2">Social Network</p>
+          </div>
+         </div>
+         <div class="clearfix colelem" id="pu337"><!-- group -->
+          <div class="grpelem" id="u337"><!-- simple frame --></div>
+          <div class="grpelem" id="u338" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.7071,M12=0.7071,M21=-0.7071,M22=0.7071,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-5" data-mu-ie-matrix-dy="-5"><!-- simple frame --></div>
+         </div>
+         <div class="clearfix colelem" id="u336-4"><!-- content -->
+          <p>For the People who love to Share and inspire others.</p>
+         </div>
+        </div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element clearfix" id="u328"><!-- column -->
+         <div class="clearfix colelem" id="pu340"><!-- group -->
+          <div class="rounded-corners clearfix grpelem" id="u340"><!-- group -->
+           <div class="clearfix grpelem" id="u341-4"><!-- content -->
+            <p id="u341-2">3</p>
+           </div>
+          </div>
+          <div class="clearfix grpelem" id="u342-4"><!-- content -->
+           <p id="u342-2">Emergency / Alert </p>
+          </div>
+         </div>
+         <div class="clearfix colelem" id="pu344"><!-- group -->
+          <div class="grpelem" id="u344"><!-- simple frame --></div>
+          <div class="grpelem" id="u345" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.7071,M12=-0.7071,M21=0.7071,M22=-0.7071,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-5" data-mu-ie-matrix-dy="-5"><!-- simple frame --></div>
+         </div>
+         <div class="clearfix colelem" id="u343-4"><!-- content -->
+          <p>Always there to protect and help you when you are in danger.</p>
+         </div>
+        </div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element clearfix" id="u330"><!-- column -->
+         <div class="clearfix colelem" id="pu347"><!-- group -->
+          <div class="rounded-corners clearfix grpelem" id="u347"><!-- group -->
+           <div class="clearfix grpelem" id="u348-4"><!-- content -->
+            <p id="u348-2">4</p>
+           </div>
+          </div>
+          <div class="clearfix grpelem" id="u349-4"><!-- content -->
+           <p id="u349-2">Health & News</p>
+          </div>
+         </div>
+         <div class="clearfix colelem" id="pu351"><!-- group -->
+          <div class="grpelem" id="u351"><!-- simple frame --></div>
+          <div class="grpelem" id="u352" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.7071,M12=-0.7071,M21=0.7071,M22=-0.7071,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-5" data-mu-ie-matrix-dy="-5"><!-- simple frame --></div>
+         </div>
+         <div class="clearfix colelem" id="u350-4"><!-- content -->
+          <p>Because Your Health is important for us , thats why to ensure complete safety.</p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u259popup">
+       <div class="ContainerGroup clearfix" id="u259"><!-- stack box -->
+        <div class="Container museBGSize grpelem" id="u263"><!-- simple frame --></div>
+        <div class="Container invi museBGSize grpelem" id="u327"><!-- simple frame --></div>
+        <div class="Container invi museBGSize grpelem" id="u329"><!-- simple frame --></div>
+        <div class="Container invi museBGSize grpelem" id="u331"><!-- simple frame --></div>
+       </div>
+      </div>
+     </div>
+     <div class="clip_frame grpelem" id="u220"><!-- image -->
+      <img class="block" id="u220_img" src="images/phone.png" alt="" width="285" height="600" />
+     </div>
+    </div>
+    <div class="clip_frame mse_pre_init" id="u598"><!-- image -->
+     <img class="block" id="u598_img" src="images/cloud5.png" alt="" width="818" height="276" />
+    </div>
+    <div class="clip_frame mse_pre_init" id="u600"><!-- image -->
+     <img class="block" id="u600_img" src="images/cloud6.png" alt="" width="880" height="276" />
+    </div>
+    <div class="clip_frame mse_pre_init" id="u387"><!-- image -->
+     <img class="block" id="u387_img" src="images/fieldmountain.png" alt="" width="883" height="198" />
+    </div>
+    <div class="clip_frame mse_pre_init" id="u383"><!-- image -->
+     <img class="block" id="u383_img" src="images/sun.png" alt="" width="64" height="64" />
+    </div>
+    <div class="clearfix colelem" id="pu498"><!-- group -->
+     <div class="browser_width grpelem" id="u498"><!-- simple frame --></div>
+     <div class="browser_width grpelem" id="u385"><!-- simple frame --></div>
+     <div class="clip_frame grpelem" id="u389"><!-- image -->
+      <img class="block" id="u389_img" src="images/greenfield.png" alt="" width="941" height="304" />
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu411"><!-- group -->
+     <div class="clip_frame ose_pre_init mse_pre_init" id="u411"><!-- image -->
+      <img class="block" id="u411_img" src="images/sunrefl.png" alt="" width="116" height="50" />
+     </div>
+     <div class="clip_frame mse_pre_init" id="u424"><!-- image -->
+      <img class="block" id="u424_img" src="images/ship.png" alt="" width="79" height="273" />
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu386"><!-- group -->
+     <div class="gradient browser_width grpelem" id="u386"><!-- simple frame --></div>
+     <div class="browser_width grpelem" id="u417"><!-- simple frame --></div>
+     <div class="clip_frame grpelem" id="u502"><!-- image -->
+      <img class="block" id="u502_img" src="images/phone.png" alt="" width="285" height="600" />
+     </div>
+     <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu526"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" id="u535"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="Thumb popup_element museBGSize rgba-background clearfix" id="u536"><!-- group -->
+         <div class="clip_frame grpelem" id="u538"><!-- image -->
+          <img class="block" id="u538_img" src="images/play_btn.png" alt="" width="108" height="108" />
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor" id="u529popup">
+       <div class="ContainerGroup rgba-background clearfix" id="u529"><!-- stack box -->
+        <div class="Container clearfix grpelem" id="u530"><!-- group -->
+         <div class="grpelem" id="u531"><!-- custom html -->
+          
+<iframe class="actAsDiv" src="http://player.vimeo.com/video/70388300?title=1&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;autoplay=0&amp;loop=0&amp;wmode=transparent" width="660" height="470" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+</div>
+        </div>
+       </div>
+      </div>
+     </div>
+     
+     <div class="clearfix grpelem" id="u518-6"><!-- content -->
+      <p id="u518-2">From Ehh to Oh and from zzzz to COOL </p>
+      <p id="u518-4"><span id="u518-3">We are giving our best to provide you with latest information at your finger tip and with better ideas and decision taking oppurtunities.</span></p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu487"><!-- column -->
+     <div class="position_content" id="pu487_position_content">
+      <div class="clip_frame mse_pre_init" id="u487"><!-- image -->
+       <img class="block" id="u487_img" src="images/cloud4.png" alt="" width="380" height="108" />
+      </div>
+      <div class="clip_frame mse_pre_init" id="u473"><!-- image -->
+       <img class="block" id="u473_img" src="images/cloud6.png" alt="" width="880" height="276" />
+      </div>
+      <div class="clip_frame mse_pre_init" id="u511"><!-- image -->
+       <img class="block" id="u511_img" src="images/skyscrapersv2.png" alt="" width="624" height="583" />
+      </div>
+      <div class="clip_frame mse_pre_init" id="u485"><!-- image -->
+       <img class="block" id="u485_img" src="images/cloud3.png" alt="" width="456" height="108" />
+      </div>
+      <div class="browser_width mse_pre_init" id="u465"><!-- simple frame --></div>
+     </div>
+    </div>
+    <div class="clip_frame mse_pre_init" id="u450"><!-- image -->
+     <img class="block" id="u450_img" src="images/car2.png" alt="" width="159" height="56" />
+    </div>
+    <div class="browser_width mse_pre_init" id="u466"><!-- simple frame --></div>
+    <div class="clip_frame mse_pre_init" id="u452"><!-- image -->
+     <img class="block" id="u452_img" src="images/car1.png" alt="" width="198" height="61" />
+    </div>
+    <div class="browser_width mse_pre_init" id="u572"><!-- simple frame --></div>
+    <div class="gradient browser_width colelem" id="u648"><!-- simple frame --></div>
+    <div class="clearfix colelem" id="pu628"><!-- group -->
+     <div class="gradient browser_width grpelem" id="u628"><!-- simple frame --></div>
+     <div class="clip_frame grpelem" id="u586"><!-- image -->
+      <img class="block" id="u586_img" src="images/buildings.png" alt="" width="1325" height="633" />
+     </div>
+     <div class="browser_width grpelem" id="u686"><!-- simple frame --></div>
+     <div class="browser_width grpelem" id="u726"><!-- simple frame --></div>
+     <div class="clip_frame grpelem" id="u1108"><!-- image -->
+      <img class="block" id="u1108_img" src="images/streetsign.png" alt="" width="440" height="862" />
+     </div>
+     <div class="clip_frame grpelem" id="u720"><!-- image -->
+      <img class="block" id="u720_img" src="images/hand2.png" alt="" width="690" height="627" />
+     </div>
+     <div class="clip_frame grpelem" id="u702"><!-- image -->
+      <img class="block" id="u702_img" src="images/phone.png" alt="" width="285" height="600" />
+     </div>
+     <div class="museBGSize clearfix grpelem" id="u924"><!-- group -->
+      <div class="clip_frame grpelem" id="u689"><!-- image -->
+       <img class="block" id="u689_img" src="images/hand1.png" alt="" width="447" height="391" />
+      </div>
+     </div>
+     <form class="form-grp clearfix grpelem" id="widgetu1039" method="post" enctype="multipart/form-data" action="http://www.kotulsky.tk/FormProcessv2.aspx?WebFormID=95267&amp;JSON=1"><!-- none box -->
+      <div class="fld-grp clearfix grpelem" id="widgetu1062" data-required="true"><!-- none box -->
+       <span class="fld-input NoWrap actAsDiv rounded-corners clearfix grpelem" id="u1064-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu1062_input" name="FullName" tabindex="1" /><label class="wrapped-input fld-prompt" id="widgetu1062_prompt" for="widgetu1062_input"><span class="actAsPara">Enter Name</span></label></span>
+      </div>
+      <div class="fld-grp clearfix grpelem" id="widgetu1067" data-required="true" data-type="email"><!-- none box -->
+       <span class="fld-input NoWrap actAsDiv rounded-corners clearfix grpelem" id="u1070-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu1067_input" name="EmailAddress" tabindex="2" /><label class="wrapped-input fld-prompt" id="widgetu1067_prompt" for="widgetu1067_input"><span class="actAsPara">Enter Email</span></label></span>
+      </div>
+      <div class="clearfix grpelem" id="u1072-4"><!-- content -->
+       <p>Submitting Form...</p>
+      </div>
+      <div class="clearfix grpelem" id="u1060-4"><!-- content -->
+       <p>The server encountered an error.</p>
+      </div>
+      <div class="clearfix grpelem" id="u1040-4"><!-- content -->
+       <p>Form received.</p>
+      </div>
+      <input class="submit-btn NoWrap grpelem" id="u1061-17" type="submit" value="" tabindex="3" /><!-- state-based BG images -->
+     </form>
+     <div class="clearfix grpelem" id="u1079-4"><!-- content -->
+      <p>Follow us!</p>
+     </div>
+     <div class="grpelem" id="u1083"><!-- custom html -->
+ 
+
+</div>
+     <div class="grpelem" id="u1085"><!-- custom html -->
+ 
+
+</div>
+     <div class="grpelem" id="u1087"><!-- custom html -->
+      
+ 
+
+</div>
+     <div class="clearfix grpelem" id="u1095-4"><!-- content -->
+      <p>Created by <a href="https://abhiksaha.ml">Abhik Saha.</a></p>
+     </div>
+     <div class="clearfix grpelem" id="u1098-4"><!-- content -->
+      <p>&copy; 2017 E-Dubia Platform and Co-Operation. </p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu679"><!-- column -->
+     <div class="position_content" id="pu679_position_content">
+      <div class="clip_frame mse_pre_init" id="u679"><!-- image -->
+       <img class="block" id="u679_img" src="images/cloud4.png" alt="" width="380" height="108" />
+      </div>
+      <div class="clearfix mse_pre_init" id="u946"><!-- group -->
+       <div class="clip_frame grpelem" id="u939"><!-- image -->
+        <img class="block" id="u939_img" src="images/airplane.png" alt="" width="549" height="70" />
+       </div>
+       <div class="clearfix grpelem" id="u945-4"><!-- content -->
+        <p id="u945-2">And Connecting People with People's Heart</p>
+       </div>
+      </div>
+      <div class="clip_frame mse_pre_init" id="u676"><!-- image -->
+       <img class="block" id="u676_img" src="images/cloud6.png" alt="" width="880" height="276" />
+      </div>
+      <div class="clip_frame mse_pre_init" id="u682"><!-- image -->
+       <img class="block" id="u682_img" src="images/cloud3.png" alt="" width="456" height="108" />
+      </div>
+      <div class="browser_width mse_pre_init" id="u579"><!-- simple frame --></div>
+      <div class="clip_frame mse_pre_init" id="u729"><!-- image -->
+       <img class="block" id="u729_img" src="images/car6.png" alt="" width="198" height="61" />
+      </div>
+      <div class="clip_frame mse_pre_init" id="u727"><!-- image -->
+       <img class="block" id="u727_img" src="images/car4.png" alt="" width="152" height="52" />
+      </div>
+      <div class="clip_frame mse_pre_init" id="u733"><!-- image -->
+       <img class="block" id="u733_img" src="images/car3.png" alt="" width="214" height="63" />
+      </div>
+      <div class="clip_frame mse_pre_init" id="u731"><!-- image -->
+       <img class="block" id="u731_img" src="images/car5.png" alt="" width="159" height="56" />
+      </div>
+     </div>
+    </div>
+    <div class="verticalspacer"></div>
+   </div>
+  </div>
+  <div class="preload_images">
+   <img class="preload" src="images/u1061-17-r.png" alt="" />
+   <img class="preload" src="images/u1061-17-m.png" alt="" />
+   <img class="preload" src="images/u1061-17-fs.png" alt="" />
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'index.html') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="/travel/scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="scripts/museutils7095.js?242733602" type="text/javascript"></script>
+  <script src="scripts/jquery.scrolleffects00ee.js?56249048" type="text/javascript"></script>
+  <script src="scripts/jquery.tobrowserwidth68b5.js?152985095" type="text/javascript"></script>
+  <script src="scripts/webpro854b.js?33264525" type="text/javascript"></script>
+  <script src="scripts/musewpslideshow23cd.js?272207905" type="text/javascript"></script>
+  <script src="scripts/jquery.museoverlayfeef.js?466079611" type="text/javascript"></script>
+  <script src="scripts/touchswipead15.js?261777990" type="text/javascript"></script>
+  <script src="scripts/jquery.musepolyfill.bgsize5e5e.js?3899542795" type="text/javascript"></script>
+  <script src="scripts/jquery.watch034a.js?4199601726" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+$('.browser_width').toBrowserWidth();/* browser width elements */
+Muse.Utils.prepHyperlinks(true);/* body */
+$('#u864').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[null,0.4]},{"in":[0,Infinity],"speed":[null,0.4]}]);/* scroll effect */
+Muse.Utils.initWidget('#pamphletu76', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:true,displayInterval:2400,transitionStyle:'fading',transitionDuration:1500,hideAllContentsFirst:false,shuffle:false,enableSwipe:false}); });/* #pamphletu76 */
+$('#pamphletu76').registerPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0.8]},{"in":[0,Infinity],"speed":[0,0.8]}]);/* scroll effect */
+$('#u145').registerPositionScrollEffect([{"in":[-Infinity,1138.88],"speed":[0.5,2]},{"in":[1138.88,Infinity],"speed":[0.5,2]}]);/* scroll effect */
+$('#u858').registerPositionScrollEffect([{"in":[-Infinity,1714.35],"speed":[0.1,0.8]},{"in":[1714.35,Infinity],"speed":[0.1,0.9]}]);/* scroll effect */
+$('#u871').registerPositionScrollEffect([{"in":[-Infinity,1253.65],"speed":[-0.5,1]},{"in":[1253.65,Infinity],"speed":[-0.5,0.5]}]);/* scroll effect */
+$('#u143').registerPositionScrollEffect([{"in":[-Infinity,1408.93],"speed":[-0.3,1.4]},{"in":[1408.93,Infinity],"speed":[-0.3,1.4]}]);/* scroll effect */
+Muse.Utils.initWidget('#pamphletu224', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:true,displayInterval:2600,transitionStyle:'horizontal',transitionDuration:200,hideAllContentsFirst:false,shuffle:false,enableSwipe:true}); });/* #pamphletu224 */
+$('#u598').registerPositionScrollEffect([{"in":[-Infinity,2248.95],"speed":[0.1,1.3]},{"in":[2248.95,Infinity],"speed":[0.1,1.3]}]);/* scroll effect */
+$('#u600').registerPositionScrollEffect([{"in":[-Infinity,2280.45],"speed":[-0.2,1.3]},{"in":[2280.45,Infinity],"speed":[-0.2,1.3]}]);/* scroll effect */
+$('#u387').registerPositionScrollEffect([{"in":[-Infinity,2058],"speed":[0,1.07]},{"in":[2058,Infinity],"speed":[0,1.07]}]);/* scroll effect */
+$('#u383').registerPositionScrollEffect([{"in":[-Infinity,2147.35],"speed":[0,1.2]},{"in":[2147.35,Infinity],"speed":[0,1.2]}]);/* scroll effect */
+$('#u411').registerPositionScrollEffect([{"in":[-Infinity,2377],"speed":[0,1.5]},{"in":[2377,Infinity],"speed":[0,-0.3]}]);/* scroll effect */
+$('#u411').registerOpacityScrollEffect([{"in":[-Infinity,2377],"opacity":0,"fade":72},{"in":[2377,2377],"opacity":60},{"in":[2377,Infinity],"opacity":0,"fade":137}]);/* scroll effect */
+$('#u424').registerPositionScrollEffect([{"in":[-Infinity,2004],"speed":[0,1]},{"in":[2004,Infinity],"speed":[-1,1]}]);/* scroll effect */
+Muse.Utils.initWidget('#pamphletu526', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true}); });/* #pamphletu526 */
+$('#u487').registerPositionScrollEffect([{"in":[-Infinity,3060.5],"speed":[-0.7,1]},{"in":[3060.5,Infinity],"speed":[-0.7,1]}]);/* scroll effect */
+$('#u473').registerPositionScrollEffect([{"in":[-Infinity,3116.25],"speed":[-1,1]},{"in":[3116.25,Infinity],"speed":[-1,1]}]);/* scroll effect */
+$('#u511').registerPositionScrollEffect([{"in":[-Infinity,3304],"speed":[0,1.1]},{"in":[3304,Infinity],"speed":[0,1.1]}]);/* scroll effect */
+$('#u485').registerPositionScrollEffect([{"in":[-Infinity,3519.5],"speed":[-0.3,1]},{"in":[3519.5,Infinity],"speed":[-0.3,1]}]);/* scroll effect */
+$('#u465').registerPositionScrollEffect([{"in":[-Infinity,3321.75],"speed":[null,1.05]},{"in":[3321.75,Infinity],"speed":[null,1.05]}]);/* scroll effect */
+$('#u450').registerPositionScrollEffect([{"in":[-Infinity,3295.7],"speed":[0.6,1]},{"in":[3295.7,Infinity],"speed":[0.6,1]}]);/* scroll effect */
+$('#u466').registerPositionScrollEffect([{"in":[-Infinity,3296.95],"speed":[null,1]},{"in":[3296.95,Infinity],"speed":[null,1]}]);/* scroll effect */
+$('#u452').registerPositionScrollEffect([{"in":[-Infinity,3295.7],"speed":[-0.6,1]},{"in":[3295.7,Infinity],"speed":[-0.6,1]}]);/* scroll effect */
+$('#u572').registerPositionScrollEffect([{"in":[-Infinity,3470.15],"speed":[null,1]},{"in":[3470.15,Infinity],"speed":[null,1]}]);/* scroll effect */
+Muse.Utils.initWidget('#widgetu1039', function(elem) { new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu1039 */
+$('#u679').registerPositionScrollEffect([{"in":[-Infinity,4485.75],"speed":[0.7,1]},{"in":[4485.75,Infinity],"speed":[0.7,1]}]);/* scroll effect */
+$('#u946').registerPositionScrollEffect([{"in":[-Infinity,4776],"speed":[2,1]},{"in":[4776,Infinity],"speed":[2,1]}]);/* scroll effect */
+$('#u676').registerPositionScrollEffect([{"in":[-Infinity,4484.75],"speed":[1,1]},{"in":[4484.75,Infinity],"speed":[1,1]}]);/* scroll effect */
+$('#u682').registerPositionScrollEffect([{"in":[-Infinity,4898],"speed":[0.3,1]},{"in":[4898,Infinity],"speed":[0.3,1]}]);/* scroll effect */
+$('#u579').registerPositionScrollEffect([{"in":[-Infinity,5139.5],"speed":[null,1.1]},{"in":[5139.5,Infinity],"speed":[null,1.1]}]);/* scroll effect */
+$('#u729').registerPositionScrollEffect([{"in":[-Infinity,4953.9],"speed":[2,1]},{"in":[4953.9,Infinity],"speed":[2,1]}]);/* scroll effect */
+$('#u727').registerPositionScrollEffect([{"in":[-Infinity,4954.9],"speed":[0.8,1]},{"in":[4954.9,Infinity],"speed":[0.8,1]}]);/* scroll effect */
+$('#u733').registerPositionScrollEffect([{"in":[-Infinity,4974.9],"speed":[-1.8,1]},{"in":[4974.9,Infinity],"speed":[-1.8,1]}]);/* scroll effect */
+$('#u731').registerPositionScrollEffect([{"in":[-Infinity,4964.9],"speed":[-0.7,1]},{"in":[4964.9,Infinity],"speed":[-0.7,1]}]);/* scroll effect */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+  
+  <!--HTML Widget code-->
+  
+<script type="text/javascript">
+      window.___gcfg = {
+        lang: 'en-US'
+      };
+
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = '../../apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="../../platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+   
+</body>
+
+<!-- Mirrored from www.kotulsky.tk/travel/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Jan 2017 09:28:53 GMT -->
+</html>
